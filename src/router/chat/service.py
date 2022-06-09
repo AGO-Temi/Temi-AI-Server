@@ -1,4 +1,4 @@
-class UserService:
+class ChatService:
     @staticmethod
     def getExampleUserInformation():
         return {"name": "example", "age": 19}
