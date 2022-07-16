@@ -6,11 +6,6 @@ from .chat import chat_router
 router = APIRouter()
 
 
-@router.get("/test")
-def test():
-    return "success for test"
-
-
 router.include_router(
     chat_router,
     prefix="/user",
