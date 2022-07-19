@@ -1,0 +1,3 @@
+[submodule "scr/ai"]
+  path = src/ai
+  url = https://github.com/nid2S/GSMTemi_NLP.git
